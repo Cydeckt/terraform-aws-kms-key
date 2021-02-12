@@ -19,8 +19,7 @@
 #
 
 module "this" {
-  source  = "cloudposse/label/null"
-  version = "0.22.1" // requires Terraform >= 0.12.26
+  source  = "../null-label"
 
   enabled             = var.enabled
   namespace           = var.namespace
